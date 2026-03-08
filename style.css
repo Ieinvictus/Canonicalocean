@@ -268,3 +268,84 @@ font-size:42px;
 }
 
 }
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width:768px){
+
+body{
+padding:20px;
+overflow:auto;
+}
+
+.hero{
+height:auto;
+min-height:100vh;
+padding:60px 20px;
+}
+
+.content{
+max-width:100%;
+padding:0 10px;
+}
+
+/* BRAND */
+
+.brand{
+font-size:42px;
+}
+
+/* SLOGAN */
+
+.slogan{
+font-size:22px;
+}
+
+/* DESC */
+
+.desc{
+font-size:16px;
+}
+
+/* WEBSITE */
+
+.website{
+font-size:14px;
+}
+
+/* SOCIAL */
+
+.social{
+gap:20px;
+}
+
+.social-icon{
+font-size:24px;
+}
+
+/* CANS */
+
+.can{
+width:180px;
+opacity:.35;
+filter:blur(0px);
+}
+
+/* LEFT CAN */
+
+.left{
+left:-60px;
+bottom:0;
+transform:rotate(-15deg);
+}
+
+/* RIGHT CAN */
+
+.right{
+right:-60px;
+top:0;
+transform:rotate(15deg);
+}
+
+}
