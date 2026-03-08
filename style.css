@@ -344,7 +344,7 @@ transform:rotate(-15deg);
 
 .right{
 right:-60px;
-top:0;
+top:20%;
 transform:rotate(15deg);
 }
 
