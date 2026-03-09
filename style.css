@@ -10,12 +10,13 @@ font-family:'Poppins',sans-serif;
 body{
 
 height:100vh;
+   overflow-y:auto;
 
 display:flex;
 align-items:center;
 justify-content:center;
 
-overflow:hidden;
+overflow-x:hidden;
 
 /* LIQUID GRADIENT */
 
