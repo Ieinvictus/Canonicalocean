@@ -1218,6 +1218,7 @@ MOBILE FIX (768px)
 .footer-premium{
 overflow-x: hidden;
 height:100%;
+  background:#f8f9fa;
   min-height:100vh;
 overflow-y: hidden;     /* allow scroll */
 -webkit-overflow-scrolling:touch;
@@ -1306,7 +1307,7 @@ font-size:13px;
 .footer-premium::before{
 
 content:"";
-
+display:none;
 position:absolute;
 
 top:-220px;
