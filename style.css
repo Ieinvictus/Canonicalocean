@@ -515,13 +515,13 @@ content:"";
 
 position:absolute;
 
-top:-430px;
+top:-220px;
 left:50%;
 
 transform:translateX(-50%);
 
 width:850px;
-height:300px;
+height:350px;
 
 background:
 radial-gradient(
