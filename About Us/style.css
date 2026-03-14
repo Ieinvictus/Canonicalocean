@@ -503,7 +503,7 @@ height:350px;
 
 background:radial-gradient(
 circle,
-rgba(0,200,255,.35),
+rgba(248, 249, 250, 1),
 transparent 70%
 );
 
@@ -1031,20 +1031,20 @@ transform:translateX(-50%);
 
 width:1200px;
 
-height:500px;
+height:350px;
 
 background:radial-gradient(
 ellipse at center,
-rgba(31,143,95,0.45) 0%,
-rgba(31,143,95,0.25) 35%,
-rgba(31,143,95,0.10) 55%,
+rgba(0,123,255,0.45) 0%,
+rgba(0,123,255,0.25) 30%,
+rgba(0,123,255,0.10) 55%,
 transparent 75%
 );
+  
 
 filter:blur(80px);
 
 pointer-events:none;
-
 }
 
 /* =========================
@@ -1230,7 +1230,7 @@ overflow-y: hidden;     /* allow scroll */
 bottom:-250px;  /* glow niche */
 width:900px;     /* mobile spread */
 height:180px;
-
+display:none;
 filter:blur(70px);
 
   }
