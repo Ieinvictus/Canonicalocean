@@ -445,14 +445,14 @@ content:"";
 
 position:absolute;
 
-top:-180px;
+top:-350px;
 left:50%;
 
 transform:translateX(-50%);
 
 width:1400px;
 height:
-  1100px;
+  1000px;
 
 background:
 
@@ -478,7 +478,7 @@ content:"";
 
 position:absolute;
 
-bottom:-250px;
+bottom:-350px;
 left:50%;
 
 transform:translateX(-50%);
