@@ -374,10 +374,15 @@ border-bottom:1px solid rgba(0,0,0,0.1);
 
   .mobile-nav-list li a {
   display:block;
+
 width:100%;
-text-align:left !important; /* ✅ FIXED */
-padding:14px 10px;
+padding-left:10px;
+text-align:left !important;
+
+padding:14px 0;
+
 color:#000;
+    text-decoration:none;
 font-weight:700;
   }
   /* 🔥 HOVER EFFECT */
