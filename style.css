@@ -25,7 +25,7 @@ body {
   scroll-behavior: smooth;
   overflow-x: hidden;
   overflow-y: auto;
-
+font-size:clamp(13px,1.8vw,18px);
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont,
@@ -625,7 +625,7 @@ STACK ORDER
 /* SOCIAL ICON */
 
 .social-icon {
-  font-size: 28px;
+  font-size: 20px;
   color: #1f8f5f!important;
   transition: 0.35s;
 }
