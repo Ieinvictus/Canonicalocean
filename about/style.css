@@ -423,9 +423,9 @@ SOCIAL BOTTOM
 
 .mobile-social{
 display:flex;
-justify-content:center;
-gap:25px;
-padding:20px 0 30px;
+  justify-content:center;
+  gap:25px;
+  padding:60px 0; /* 🔥 top-bottom */
 }
 
 .mobile-social a{
