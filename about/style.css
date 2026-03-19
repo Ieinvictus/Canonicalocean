@@ -393,6 +393,7 @@ overflow-y:auto;
 
 .mobile-nav-list{
 display:flex;
+  list-style:none;
 flex-direction:column;
 align-items:flex-start !important;
 width:100%;
@@ -413,7 +414,7 @@ font-weight:700;
 }
 /* 🔥 HOVER EFFECT */
 .mobile-nav-list li a:hover{
-  color:#1F8F5F;
+  color:#1F8F5F!important;
   transform:translateX(6px); /* slight move */
   }
   
