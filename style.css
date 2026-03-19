@@ -629,7 +629,12 @@ STACK ORDER
   color: #1f8f5f!important;
   transition: 0.35s;
 }
-
+/* Force Telegram icon fix (Chrome issue) */
+.fa-telegram-plane,
+.fa-telegram-plane path{
+  color:#1F8F5F !important;
+  fill:#1F8F5F !important;
+}
 .social-icon:hover {
   transform: translateY(-8px) scale(1.25);
   color: #0f5132;
