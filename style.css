@@ -202,24 +202,24 @@ body {
 ===================================================== */
 
 .nav-icons {
-  display: flex;
-  align-items: center;
-  gap: 25px;
-}
-
-.social-icons {
-  display: flex;
-  gap: 18px;
+display:flex;
+align-items:center;
+gap:15px;
 }
 
 .social-icons a {
-  color: #fff;
-  font-size: 20px;
-  transition: 0.3s;
+  color:#fff;
+text-decoration:none;
+font-size:20px;
+display:flex;
+align-items:center;
+justify-content:center;
+transition:0.3s;
 }
 
 .social-icons a:hover {
-  color: #c6a47a;
+  color:#ffe082;
+transform:scale(1.15);
 }
 
 .search-icon i {
