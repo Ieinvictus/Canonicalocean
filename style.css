@@ -619,14 +619,14 @@ STACK ORDER
 .social {
   display: flex;
   justify-content: center;
-  gap: 28px;
+  gap: 15px;
 }
 
 /* SOCIAL ICON */
 
 .social-icon {
-  font-size: 20px;
-  color: #1f8f5f!important;
+  font-size: clamp(16px, 2.5vw, 24px);
+  color: #1f8f5f !important;
   transition: 0.35s;
 }
 /* Force Telegram icon fix (Chrome issue) */
